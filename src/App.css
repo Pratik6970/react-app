@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+}
+
+.App h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+/* Posts.css */
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-card {
+  width: calc(33.33% - 20px);
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.learn-more-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3;
+}
